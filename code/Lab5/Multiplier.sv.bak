@@ -1,0 +1,12 @@
+module Multiplier(input logic Clk, Reset, Run, ClearA_LoadB,
+	input logic[7:0] S,
+	output logic[7:0] Aval,Bval,
+	output logic X);
+	
+	logic controlAdd, controlSub, controlOp, controlCL, controlXA, controlShift,tranM;
+	logic [7:0] tranA_out;
+
+	AdderUnit AU1(.c_in(1'b0), .Add(controlAdd), .Sub(controlSub),.A({S[7],S}),.B({tranA_out[7],tranA_out}),.S(),.c_out());
+	ControlUnit CU1(.Reset(Reset), .Clk(Clk), .Run(Run), .M(tranM), .LoadClear(ClearA_LoadB),.Shift(controlShift),.Add(controlAdd),.Sub(controlSub),.Op(controlOp),.Clr_Ld(controlCL), .Clr_XA(controlXA));
+	RegUnit RU1(.Shift(controlShift), .Clr_Ld(controlCL), .Clr_XA(controlXA), .Clk(Clk), .X(), .Op(controlOp),.A(), .B(),.S(),.A_out(tranA_out),.M(tranM));
+endmodule

@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Tue Sep 24 21:15:07 2019
+Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+Revision Name : adder16
+Top-level Entity Name : adder16
+Family : Cyclone IV E
+Total logic elements : 139
+    Total combinational functions : 123
+    Dedicated logic registers : 105
+Total registers : 105
+Total pins : 93
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

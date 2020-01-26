@@ -1,0 +1,22 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vlog -sv -work work +incdir+C:/ece385/Lab4/ece385sp16_lab4_adders {C:/ece385/Lab4/ece385sp16_lab4_adders/HexDriver.sv}
+vlog -sv -work work +incdir+C:/ece385/Lab4/ece385sp16_lab4_adders {C:/ece385/Lab4/ece385sp16_lab4_adders/carry_select_adder.sv}
+vlog -sv -work work +incdir+C:/ece385/Lab4/bit-serial-adders {C:/ece385/Lab4/bit-serial-adders/fulladder.sv}
+vlog -sv -work work +incdir+C:/ece385/Lab4/bit-serial-adders/output_files {C:/ece385/Lab4/bit-serial-adders/output_files/CRAadder.sv}
+vlog -sv -work work +incdir+C:/ece385/Lab4/bit-serial-adders/output_files {C:/ece385/Lab4/bit-serial-adders/output_files/CSAadder.sv}
+vlog -sv -work work +incdir+C:/ece385/Lab4/ece385sp16_lab4_adders {C:/ece385/Lab4/ece385sp16_lab4_adders/lab4_adders_toplevel.sv}
+
+vlog -sv -work work +incdir+C:/ece385/Lab4/bit-serial-adders/output_files {C:/ece385/Lab4/bit-serial-adders/output_files/testbench.sv}
+
+vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  testbench
+
+add wave *
+view structure
+view signals
+run 1000 ns

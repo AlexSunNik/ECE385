@@ -1,0 +1,20 @@
+module AdderUnit(input logic c_in, isAdd,
+	input logic[8:0] A,B,
+	output logic [8:0] S,
+	output logic c_out);
+	
+	logic [8:0] B_Buf;
+	bitsFullAdder bf0(.c_in(1'b0), .A(A), .B(B_Buf), .S(S), .c_out(c_out));
+	
+	always_comb
+		begin
+			if(isAdd)
+				B_Buf = B;
+			else
+				begin
+					B_Buf = ~B;
+					bitsFullAdder bf1(.c_in(1'b1), .A(B_Buf), .B(9'b0), .S(B_Buf), .c_out());
+				end
+		end
+	
+endmodule

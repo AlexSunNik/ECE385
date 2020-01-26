@@ -1,0 +1,6 @@
+module ControlUnit(
+input logic Reset, Clr&ld, Clk, Run, M
+output logic Shift, isAdd, LdA, Clr_ld);
+
+
+endmodule

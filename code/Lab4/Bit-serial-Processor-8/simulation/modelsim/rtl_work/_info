@@ -1,0 +1,287 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/alexs/Desktop/Bit-serial-Processor-8/simulation/modelsim
+vcompute
+Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z2 !s110 1568727343
+!i10b 1
+!s100 i=]6932U1_OWO<5E?3HbR1
+ISS594Rb9_zOR<Gh[ZQdC>2
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+!s105 compute_sv_unit
+S1
+R0
+Z4 w1568434436
+8C:/Users/alexs/Desktop/Bit-serial-Processor-8/compute.sv
+FC:/Users/alexs/Desktop/Bit-serial-Processor-8/compute.sv
+L0 1
+Z5 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z6 !s108 1568727343.000000
+!s107 C:/Users/alexs/Desktop/Bit-serial-Processor-8/compute.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/alexs/Desktop/Bit-serial-Processor-8|C:/Users/alexs/Desktop/Bit-serial-Processor-8/compute.sv|
+!i113 1
+Z7 o-sv -work work
+Z8 !s92 -sv -work work +incdir+C:/Users/alexs/Desktop/Bit-serial-Processor-8
+Z9 tCvgOpt 0
+vcontrol
+R1
+R2
+!i10b 1
+!s100 L6UZ7]X8aUBTnJVBgj=lU3
+IQNhX]K2a1mOfQ94emA1_03
+R3
+!s105 Control_sv_unit
+S1
+R0
+w1568440737
+8C:/Users/alexs/Desktop/Bit-serial-Processor-8/Control.sv
+FC:/Users/alexs/Desktop/Bit-serial-Processor-8/Control.sv
+L0 3
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/alexs/Desktop/Bit-serial-Processor-8/Control.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/alexs/Desktop/Bit-serial-Processor-8|C:/Users/alexs/Desktop/Bit-serial-Processor-8/Control.sv|
+!i113 1
+R7
+R8
+R9
+vHexDriver
+R1
+R2
+!i10b 1
+!s100 ^DddjRd7Wla]U<SlP;mT@0
+IoKWSd:;7kD:kBUj92KjmU1
+R3
+!s105 HexDriver_sv_unit
+S1
+R0
+R4
+8C:/Users/alexs/Desktop/Bit-serial-Processor-8/HexDriver.sv
+FC:/Users/alexs/Desktop/Bit-serial-Processor-8/HexDriver.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/alexs/Desktop/Bit-serial-Processor-8/HexDriver.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/alexs/Desktop/Bit-serial-Processor-8|C:/Users/alexs/Desktop/Bit-serial-Processor-8/HexDriver.sv|
+!i113 1
+R7
+R8
+R9
+n@hex@driver
+vProcessor
+R1
+Z10 !s110 1568727344
+!i10b 1
+!s100 V>d?Ti8Dc4?RS0;B3ef>M0
+IPTVNI?P7HoEnf:::@6el`1
+R3
+!s105 Processor_sv_unit
+S1
+R0
+w1568440890
+8C:/Users/alexs/Desktop/Bit-serial-Processor-8/Processor.sv
+FC:/Users/alexs/Desktop/Bit-serial-Processor-8/Processor.sv
+L0 8
+R5
+r1
+!s85 0
+31
+Z11 !s108 1568727344.000000
+!s107 C:/Users/alexs/Desktop/Bit-serial-Processor-8/Processor.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/alexs/Desktop/Bit-serial-Processor-8|C:/Users/alexs/Desktop/Bit-serial-Processor-8/Processor.sv|
+!i113 1
+R7
+R8
+R9
+n@processor
+vreg_8
+R1
+R2
+!i10b 1
+!s100 AXDzj?_?eZ4hKcKof@=bm2
+Ic^DCnGP@Gm:<V[>i<Mj;_2
+R3
+!s105 Reg_8_sv_unit
+S1
+R0
+w1568440675
+8C:/Users/alexs/Desktop/Bit-serial-Processor-8/Reg_8.sv
+FC:/Users/alexs/Desktop/Bit-serial-Processor-8/Reg_8.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/alexs/Desktop/Bit-serial-Processor-8/Reg_8.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/alexs/Desktop/Bit-serial-Processor-8|C:/Users/alexs/Desktop/Bit-serial-Processor-8/Reg_8.sv|
+!i113 1
+R7
+R8
+R9
+vregister_unit
+R1
+R2
+!i10b 1
+!s100 2ffML3jhY4aCKKX2f;m:<1
+I68WPdYj<TJ9MN[JJXgYlP2
+R3
+!s105 Register_unit_sv_unit
+S1
+R0
+w1568440689
+8C:/Users/alexs/Desktop/Bit-serial-Processor-8/Register_unit.sv
+FC:/Users/alexs/Desktop/Bit-serial-Processor-8/Register_unit.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/alexs/Desktop/Bit-serial-Processor-8/Register_unit.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/alexs/Desktop/Bit-serial-Processor-8|C:/Users/alexs/Desktop/Bit-serial-Processor-8/Register_unit.sv|
+!i113 1
+R7
+R8
+R9
+vrouter
+R1
+R2
+!i10b 1
+!s100 lIdD9@`9>^lYia[Dkg2aV0
+I_CXS>LXbXz>Q@d6nzn]=@1
+R3
+!s105 Router_sv_unit
+S1
+R0
+R4
+8C:/Users/alexs/Desktop/Bit-serial-Processor-8/Router.sv
+FC:/Users/alexs/Desktop/Bit-serial-Processor-8/Router.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/alexs/Desktop/Bit-serial-Processor-8/Router.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/alexs/Desktop/Bit-serial-Processor-8|C:/Users/alexs/Desktop/Bit-serial-Processor-8/Router.sv|
+!i113 1
+R7
+R8
+R9
+vsync
+R1
+R2
+!i10b 1
+!s100 2W5Vz0:F6ckE2`eJOTK5l1
+IQzhg?>T5EQFj`Tla[H2Ce0
+R3
+Z12 !s105 Synchronizers_sv_unit
+S1
+R0
+R4
+Z13 8C:/Users/alexs/Desktop/Bit-serial-Processor-8/Synchronizers.sv
+Z14 FC:/Users/alexs/Desktop/Bit-serial-Processor-8/Synchronizers.sv
+L0 4
+R5
+r1
+!s85 0
+31
+R6
+Z15 !s107 C:/Users/alexs/Desktop/Bit-serial-Processor-8/Synchronizers.sv|
+Z16 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/alexs/Desktop/Bit-serial-Processor-8|C:/Users/alexs/Desktop/Bit-serial-Processor-8/Synchronizers.sv|
+!i113 1
+R7
+R8
+R9
+vsync_r0
+R1
+R2
+!i10b 1
+!s100 IGd9f_F;JNjVBLQ@DAnD10
+IF;VRog`7:Q^S=Nd5LzkOD0
+R3
+R12
+S1
+R0
+R4
+R13
+R14
+L0 18
+R5
+r1
+!s85 0
+31
+R6
+R15
+R16
+!i113 1
+R7
+R8
+R9
+vsync_r1
+R1
+R2
+!i10b 1
+!s100 1CXiH1DYDbAUS69Ee2j060
+I9TG5cNShD<F@@M_N5dh8B1
+R3
+R12
+S1
+R0
+R4
+R13
+R14
+L0 39
+R5
+r1
+!s85 0
+31
+R6
+R15
+R16
+!i113 1
+R7
+R8
+R9
+vtestbench
+R1
+R10
+!i10b 1
+!s100 ;J9O9OfMjMmYJ>Z^?Wd]Z1
+IZ3hOn2_M4LAK4XX7PzOmz3
+R3
+!s105 testbench_8_sv_unit
+S1
+R0
+R4
+8C:/Users/alexs/Desktop/Bit-serial-Processor-8/testbench_8.sv
+FC:/Users/alexs/Desktop/Bit-serial-Processor-8/testbench_8.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/alexs/Desktop/Bit-serial-Processor-8/testbench_8.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/alexs/Desktop/Bit-serial-Processor-8|C:/Users/alexs/Desktop/Bit-serial-Processor-8/testbench_8.sv|
+!i113 1
+R7
+R8
+R9

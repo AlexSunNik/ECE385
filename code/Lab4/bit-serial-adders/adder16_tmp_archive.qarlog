@@ -1,0 +1,31 @@
+Quartus Prime Archive log --	C:/ece385/Lab4/bit-serial-adders/adder16_tmp_archive.qarlog
+
+Archive:	C:/ece385/Lab4/bit-serial-adders/adder16_tmp_archive.qar
+Date:		Tue Sep 17 09:16:58 2019
+Quartus Prime		18.1.0 Build 625 09/12/2018 SJ Lite Edition
+
+	=========== Files Selected: ===========
+C:/ece385/Lab4/bit-serial-adders/CLAadder.sv
+C:/ece385/Lab4/bit-serial-adders/LookAheadUnit.sv
+C:/ece385/Lab4/bit-serial-adders/adder16.qpf
+C:/ece385/Lab4/bit-serial-adders/adder16.qsf
+C:/ece385/Lab4/bit-serial-adders/fulladder.sv
+C:/ece385/Lab4/bit-serial-adders/output_files/CRAadder.sv
+C:/ece385/Lab4/bit-serial-adders/output_files/CSAadder.sv
+C:/ece385/Lab4/bit-serial-adders/output_files/testbench.sv
+C:/ece385/Lab4/ece385sp16_lab4_adders/HexDriver.sv
+C:/ece385/Lab4/ece385sp16_lab4_adders/carry_lookahead_adder.sv
+C:/ece385/Lab4/ece385sp16_lab4_adders/carry_select_adder.sv
+C:/ece385/Lab4/ece385sp16_lab4_adders/lab4_adders_toplevel.sv
+C:/ece385/Lab4/ece385sp16_lab4_adders/ripple_adder.sv
+c:/intelfpga_lite/18.1/quartus/bin64/assignment_defaults.qdf
+	======= Total: 14 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.
+
+
+******* Archived project restoration attempt on Tue Sep 17 09:17:00 2019
+Source archive file:	C:/ece385/Lab4/bit-serial-adders/adder16_tmp_archive.qar
+Archive was extracted into	C:/Users/alexs/Desktop/bit-serial-Adder/
+		 - successfully.
